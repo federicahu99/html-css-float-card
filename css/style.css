@@ -8,9 +8,8 @@
 /*body */
 body {
     font-family: 'Fredoka', sans-serif;
-    margin: 0 auto;
-    width: 80%;
 }
+   
 
 h1 {
     color: deeppink;
@@ -28,11 +27,13 @@ p {
 img {
     height: 110px;
     display: inline-block;
-    float: left
-};
+    float: left;
+    vertical-align: middle
+}
 
 a {
     text-decoration: none;
+    color: lightskyblue
 }
 
 /*container*/
@@ -48,9 +49,12 @@ a {
     color: white;
     width: calc(100% / 3 - 30px);
     margin: 15px;
-    line-height: 30px;
-    vertical-align: middle;
     
+    vertical-align: middle;
+}
+
+.team-information {
+    margin-left: 50px;
 }
 
 .clearfix::after {
