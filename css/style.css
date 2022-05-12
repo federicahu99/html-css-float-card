@@ -1,9 +1,11 @@
+/*Generale*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*body */
 body {
     font-family: 'Fredoka', sans-serif;
 }
@@ -11,9 +13,21 @@ body {
 h1 {
     color: deeppink;
     text-align: center;
-    margin-top: 3%;
+    margin: 3% 0;
 }
 
 p {
     text-align: center;
+    margin: 3% 0;
+}
+
+img {
+    height: 150px;
+}
+
+/*container*/
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
 }
