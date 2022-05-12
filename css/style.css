@@ -53,12 +53,15 @@ a {
     vertical-align: middle;
 }
 
-.team-information {
-    margin-left: 50px;
-}
-
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
   }
+
+
+/* biglietto da visita*/
+.team-information {
+    padding: 20px;
+    line-height: 23px;
+}
